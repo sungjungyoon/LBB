@@ -25,6 +25,10 @@ input:focus{outline:none;}
 .nav-right-box .hamburger-btn{cursor: pointer;}
 /* nav */
 .nav-list{position:absolute;width:150%;height:532px;left:-25%;top:100%;background-color:rgba(0, 0, 0, 0.705);display:flex;display:none;}
+.nav-list-box{display:flex;justify-content:center;align-items:center;height:100%;}
+.nav-list-box ul{margin:10px;}
+.nav-list-box h1{font-size:22px;color:#ddd;}
+.nav-list-box a{color:#999;font-size:18px;}
 /* slide */
 /* lbb */
 .section-lbb .container{margin-bottom:90px;}
