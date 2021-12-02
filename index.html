@@ -32,7 +32,7 @@
                 <div class="nav-right">
                     <div class="nav-right-box">
                         <div class="input-box">
-                            <input type="text" name="search_btn" id="search_btn">
+                            <input type="text" name="search_btn" id="search_btn" placeholder="검색">
                             <img src="./images/search-imo.png" alt="">
                         </div>
                         <div class="heart-box">
@@ -41,9 +41,45 @@
                         <div class="cart-box">
                             <a href=""><i class="fas fa-shopping-cart"></i></a>
                         </div>
-                        <div class="hamburger-btn">
+                        <div class="hamburger-btn" id="trigger01">
                             <i class="fas fa-bars"></i>
                         </div>
+                    </div>
+                </div>
+                <div class="nav-list">
+                    <div class="about-list">
+                        <ul>
+                            <li><a href="#">Brand</a></li>
+                            <li><a href="#">Spa</a></li>
+                            <li><a href="#">Boutique</a></li>
+                            <li><a href="#">Our MUSE</a></li>
+                        </ul>
+                    </div>
+                    <div class="shop-list">
+                        <ul>
+                            <li><a href="#">ALL</a></li>
+                            <li><a href="#">Skin Care</a></li>
+                            <li><a href="#">Mask Pack</a></li>
+                        </ul>
+                    </div>
+                    <div class="board-list">
+                        <ul>
+                            <li><a href="#">NOTICE</a></li>
+                            <li><a href="#">Event</a></li>
+                            <li><a href="#">Review</a></li>
+                            <li><a href="#">Q&A</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="event-list">
+                        <ul>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">My Page</a></li>
+                            <li><a href="#">Mileage</a></li>
+                            <li><a href="#">My Q&A</a></li>
+                            <li><a href="#">Delivery</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -124,11 +160,12 @@
                         <img src="./images/menu-img01.png" alt="">
                             <div class="menu-txt-box01">
                                 <h4>셀룰라 인텐시브 케어 인 세럼 30ml</h4>
-                                <p> LBB의 독자 원료 Tangerine Prime Cellular 
-                                    Water™ 와 Rejuvenating 액티브 콤플렉스,
-                                    저분자 식물성 단백질 성분이 탄력 있고 매우 
+                                <p> LBB의 독자 원료 Tangerine Prime Cellular<br>
+                                    Water™ 와 Rejuvenating 액티브 콤플렉스,<br>
+                                    저분자 식물성 단백질 성분이 탄력 있고 매우 <br>
                                     촉촉한 피부로 가꾸어주는 항산화 케어 세럼.</p>
                                 <h3>83,000W</h3>
+                                <div class="link-box">자세히 보기</div>
                             </div>
                     </div>
                     <div class="menu02-box">
@@ -141,31 +178,33 @@
                         <img src="./images/menu-img03.png" alt="">
                             <div class="menu-txt-box03">
                                 <h4>셀룰라 인텐시브 케어 인 크림 50ml</h4>
-                                <p> LBB의 독자 원료 Tangerine Prime Cellular
-                                    Water™와 식물 줄기세포 배양 성분이 피부 
-                                    속부터 건강하고 탄력 있는 피부로 만들어주
-                                    며 홍삼의 프로바이오틱스, 마이크로바이욤
-                                    이 피부 유익균 밸런스 유지에 도움을 주는 
+                                <p> LBB의 독자 원료 Tangerine Prime Cellular<br>
+                                    Water™와 식물 줄기세포 배양 성분이 피부 <br>
+                                    속부터 건강하고 탄력 있는 피부로 만들어주<br>
+                                    며 홍삼의 프로바이오틱스, 마이크로바이욤<br>
+                                    이 피부 유익균 밸런스 유지에 도움을 주는 <br>
                                     고농축 안티에이징 케어 크림</p>
                                 <h3>98,000W</h3>
+                                <div class="link-box">자세히 보기</div>
                             </div>
                     </div>
                     <div class="menu04-box">
                         <img src="./images/menu-img04.png" alt="">
                             <div class="menu-txt-box04">
                                 <h4>셀룰라 인텐시브 수딩 앰플 60ml</h4>
-                                <p>LBB의 독자 원료 Tangerine Prime Cellular
-                                    Water™와 펩타이드, 라즈베리 줄기세포 배
-                                    양 성분이 피부 보습과 진정에 도움을 주며, 
-                                    홍삼의 프리바이오틱스 성분이 Protecting 
-                                    coat를 형성하여 외부로부터 피부를 보호
+                                <p>LBB의 독자 원료 Tangerine Prime Cellular<br>
+                                    Water™와 펩타이드, 라즈베리 줄기세포 배<br>
+                                    양 성분이 피부 보습과 진정에 도움을 주며, <br>
+                                    홍삼의 프리바이오틱스 성분이 Protecting <br>
+                                    coat를 형성하여 외부로부터 피부를 보호<br>
                                     하는 마일드 쿨링 수딩 앰플</p>
                                 <h3>73,000W</h3>
+                                <div class="link-box">자세히 보기</div>
                             </div>
                     </div>
                 </div>
                 <div class="more-btn">
-                    <button type="submit"><h4>LBB COLECTION 더보기</h4></button>
+                    <h4>LBB COLECTION 더보기</h4>
                 </div>
             </div>
         </section>
@@ -173,33 +212,41 @@
             <div class="container">
                 <div class="top-mask">
                     <div class="top-mask-txt">
-                        <h1>LBB MASK</h1>
-                        <h4>엘비비 인텐시브 케어 인 세럼 마스크</h4>
-                        <p>- 스쿠알란과 사라수씨버터가 피부를 촉촉하고 활력있게 만들어주는 시트 마스크</p>
-                        <h3>30,000W</h3>
-                        <span>ㅡ</span>
-                        <h4>엘비비 수딩 케어 인 세럼 마스크</h4>
-                        <p>- 프로텍톨과 7중 히알루론산이 민감해진 피부를 촉촉하게 진정시켜 주는 시트 마스크</p>
-                        <h3>30,000W</h3>
-                    </div>
-                    <div class="top-mask-img">
-                        <img src="./images/top-mask-img.png" alt="">
+                        <div class="back">
+                            <h1>LBB MASK</h1>
+                            <h4>엘비비 인텐시브 케어 인 세럼 마스크</h4>
+                            <p>- 스쿠알란과 사라수씨버터가 피부를 촉촉하고 활력있게 만들어주는 시트 마스크</p>
+                            <h3>30,000W</h3>
+                            <h4>엘비비 수딩 케어 인 세럼 마스크</h4>
+                            <p>- 프로텍톨과 7중 히알루론산이 민감해진 피부를 촉촉하게 진정시켜 주는 시트 마스크</p>
+                            <h3>30,000W</h3>
+                            <div class="top-mask-img">
+                                <img src="./images/top-mask-img.png" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="bottom-mask">
-                    <img src="./images/lmh-mask-img01.png" alt="">
-                    <img src="./images/lmh-mask-img02.png" alt="">
-                    <img src="./images/lmh-mask-img03.png" alt="">
+                    <div class="lmh-l">
+                        <img src="./images/lmh-mask-img01.png" alt="">
+                    </div>
+
+                    <div class="lmh-r">
+                        <img src="./images/lmh-mask-img02.png" alt="">
+                        <img src="./images/lmh-mask-img03.png" alt="">
+                    </div>
                 </div>
                 <div class="more-btn">
-                    <button type="submit"><h4>LBB MASK 자세히 보기</h4></button>
+                    <h4>LBB MASK 자세히 보기</h4>
                 </div>
             </div>
         </section>
         <section class="section-cf">
-            <div class="container">
+            <div class="cf-box">
                 <img src="./images/lmh-background.png" alt="">
-                <!-- <iframe width="897" height="582" src="https://www.youtube.com/embed/xIBst4a451M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                <!-- <iframe width="1280" height="582" src="https://www.youtube.com/embed/xIBst4a451M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            </div>
+            <div class="container">
             </div>
         </section>
         <section class="section-benefit">
@@ -207,31 +254,34 @@
                 <div class="benefit-top">
                     <h1>LBB X LEE MIN HO</h1>
                     <h2>오직 LBB 공식 온라인 몰에서만 제공되는 단독혜택!</h2>
-                    <span>ㅡ</span>
                 </div>
                 <div class="benefit-bottom">
                     <div class="lmh-left">
-                        <img src="./images/benefit-lmh-left.png" alt="">
-                        <span>ㅡ</span>
+                        <i class="fas fa-truck"></i>
                         <h2>FREE DELIVERY</h2>
                         <h3>전 제품 국내 무료배송</h3>
+                        <div class="more-btn">
+                            <h4>자세히 보러가기</h4>
+                        </div>
                     </div>
                     <div class="lmh-center">
-                        <img src="./images/benefit-lmh-center.png" alt="">
-                        <span>ㅡ</span>
-                        <h2>FREE DELIVERY</h2>
-                        <h3>전 제품 국내 무료배송</h3>
+                        <i class="fas fa-ticket-alt"></i>
+                        <h2>NEW MEMBERS</h2>
+                        <h3>회원가입 시 15%할인</h3>
+                        <div class="more-btn">
+                            <h4>자세히 보러가기</h4>
+                        </div>
                     </div>
                     <div class="lmh-right">
-                        <img src="./images/benefit-lmh-right.png" alt="">
-                        <span>ㅡ</span>
-                        <h2>FREE DELIVERY</h2>
-                        <h3>전 제품 국내 무료배송</h3>
-                    </div>
-                    <div class="more-btn">
-                        <button type="submit"><h4>자세히 보러가기</h4></button>
+                        <i class="fas fa-cart-plus"></i>
+                        <h2>GIFT SAMPLE</h2>
+                        <h3>제품 구매고객 세럼/크림 샘플 증정</h3>
+                        <div class="more-btn">
+                            <h4>자세히 보러가기</h4>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </section>
         <footer class="footer">
@@ -239,7 +289,7 @@
                 <img src="./images/footer-logo.png" alt="">
                 <p>서비스 이용약관ㅣ개인정보 처리방침ㅣ사이트 가이드ㅣ라이센스</p>
                 <p>오픈시간 09:00~18:00  ㅣ  점심시간  ㅣ  12:00~13:00  ㅣ  주말/공휴일 휴무  ㅣ  입금 계좌 예금주 : 주식회사 라부티크블루  / 하나은행 174-910010-68104</p>
-                <p>Company (주) 라부티크블루  l  대표이사 이수진 ㅣ 사업자등록번호 490-88-00948  ㅣ  통신판매업 신고번호  2019-서울용산-0748 
+                <p>Company (주) 라부티크블루  l  대표이사 이수진 ㅣ 사업자등록번호 490-88-00948  ㅣ  통신판매업 신고번호  2019-서울용산-0748 <br>
                     주소 04348 서울특별시 용산구 이태원로55길 45 (한남동) 라 부티크 블루  ㅣ  Tel 02-555-5152  ㅣ  E.mail cs@lbbkorea.com</p>
                 <p>Copyright (C) 2021 LBB cell beauty all rights reserved /cafe24</p>    
             </div>
