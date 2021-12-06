@@ -13,6 +13,9 @@ a{text-decoration:none;color:#333;}
 button{border-radius:0;}
 input{border-radius:0;}
 input:focus{outline:none;}
+.more-btn{cursor: pointer;}
+.more-btn:hover{background-color:#666;}
+.more-btn h4:hover{color:#ddd;}
 
 /* header */
 .header .container{height:100px;display:flex;align-items:center;justify-content:space-between;position:relative;z-index:100;}
@@ -24,11 +27,17 @@ input:focus{outline:none;}
 .nav-right-box .input-box img{height:16px;cursor: pointer;}
 .nav-right-box .hamburger-btn{cursor: pointer;}
 /* nav */
+.flex-box{display:flex;justify-content:center;align-items:center;height:100%;}
 .nav-list{position:absolute;width:150%;height:532px;left:-25%;top:100%;background-color:rgba(0, 0, 0, 0.705);display:flex;display:none;}
-.nav-list-box{display:flex;justify-content:center;align-items:center;height:100%;}
-.nav-list-box ul{margin:10px;}
-.nav-list-box h1{font-size:22px;color:#ddd;}
-.nav-list-box a{color:#999;font-size:18px;}
+.nav-list-box{display:flex;justify-content:center;}
+.nav-list-box ul{margin:20px;}
+.nav-list-box h1{font-size:22px;color:#ddd;margin-bottom:10px;}
+.nav-list-box li{margin-bottom:5px;}
+.nav-list-box a{color:#999;font-size:16px;}
+.search-box{align-self:center;}
+.search-box form{padding-left:100px;}
+.search-box input{border:none;background-color:black;color:white;font-size:14px;padding:10px;border:1px solid #ddd;}
+.search-box button{border:none;background-color:black;color:white;font-size:14px;padding:8px 9px 10px 9px;border:1px solid #ddd;}
 /* slide */
 /* lbb */
 .section-lbb .container{margin-bottom:90px;}
@@ -65,7 +74,7 @@ input:focus{outline:none;}
 .menu-txt-box02 h4::after{width:100%;}
 .menu-box p{font-size:14px;color:#666;font-weight:300;letter-spacing:-0.075em;line-height:20px;margin-bottom:12px;}
 .menu-box h3{font-size:24px;font-weight:700;color:#666;margin-bottom:18px;}
-.link-box{width:80px;height:30px;font-size:14px;background-color:#666;color:#ddd;text-align:center;line-height:30px;font-weight:400;}
+.link-box{width:80px;height:30px;font-size:14px;background-color:#666;color:#ddd;text-align:center;line-height:30px;font-weight:400;cursor: pointer;}
 .menu01-box .link-box{float:right;}
 .more-btn{border:2px solid #666;width:200px;height:44px;margin:40px auto;}
 .more-btn h4{text-align:center;font-size:16px;font-weight:700;color:#666;line-height:44px;letter-spacing:-0.05em;}
