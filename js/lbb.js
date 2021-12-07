@@ -34,3 +34,4 @@ var swiper = new Swiper(".swiper", {
   },
   loop:true,
 });
+AOS.init();
